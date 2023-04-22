@@ -86,6 +86,34 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 | Chain of Thought Marketing | Using the OpenAI API, generate a marketing slogan for a new brand, then use the slogan to create a marketing campaign, and based on the campaign, generate a series of promotional events | Temperature for slogan, Top_p for campaign |
 | Recursive Legal Analysis | Using the OpenAI API, analyze a legal case for potential arguments, then generate counterarguments for each argument, and repeat the process to simulate a legal debate until a conclusion is reached | Top_p for analysis, Max tokens for debate |
 
+## Advanced Examples with Various Models and Settings
+| Title | Command and Description | Parameters | Model |
+|-------|-------------------------|------------|-------|
+| Creative Recipe and Poem | Using the OpenAI API, fine-tune a language model to generate creative recipes, then use the fine-tuned model to create a recipe for a dish with specific dietary restrictions, and finally generate a poem about the dish | Training data provided, Dietary restrictions, Temperature for poem | gpt-4 |
+| Dialogue and Short Story | Using the OpenAI API, generate a dialogue between two characters discussing the meaning of life, then use the dialogue to create a short story, and finally summarize the story in a single sentence | Top_p for dialogue, Temperature for story, Max tokens for summary | gpt-3.5-turbo |
+| Prime Number Riddle | Using the OpenAI API, generate a Python code snippet that finds prime numbers in a given range, then use the code to find prime numbers between 1 and 100, and finally generate a riddle about one of the prime numbers | Max tokens for code, Range: 1-100, Temperature for riddle | davinci |
+| Imaginary Planet News | Using the OpenAI API, create a short description of an imaginary planet, then generate a fictional news article about a major event on the planet, and finally write a speech by the planet's leader addressing the event | Temperature for description, Top_p for article, Max tokens for speech | curie |
+| Mischievous Cat Play | Using the OpenAI API, generate a limerick about a mischievous cat, then use the limerick as a prompt to generate a short play featuring the cat, and finally write a review of the play as if it were performed on stage | Temperature for limerick, Top_p for play, Max tokens for review | babbage |
+| Character Profile and Story | Using the OpenAI API, create a program that: (1) Generates a fictional character's profile (name, age, occupation, etc.), (2) Creates a dialogue between the character and an interviewer, (3) Based on the dialogue, generates a short story involving the character, (4) Summarizes the story into a single paragraph, (5) Translates the summary into three different languages | Temperature for profile, Top_p for dialogue, Temperature for story, Max tokens for summary, Target languages for translation | gpt-3.5-turbo-0301 |
+| Detective Story and Plot Twist | Using the OpenAI API, fine-tune a language model to generate detective stories, then use the fine-tuned model to: (1) Generate a detective story with a mysterious crime, (2) Create a list of suspects and their motives, (3) Generate a plot twist revealing the true culprit, (4) Write the detective's closing monologue summarizing the case | Training data provided, Temperature for story, Top_p for plot twist, Max tokens for monologue | gpt-4-0314 |
+| Code Generation and Explanation | Using the OpenAI API, generate a Python code snippet that calculates the factorial of a given number, then use the code to calculate the factorial of 5, and finally generate a natural language explanation of how the code works | Max tokens for code, Input number: 5, Temperature for explanation | text-davinci-002 |
+| Creative Writing and Translation | Using the OpenAI API, generate a short story about a robot who discovers its own consciousness, then summarize the story in a single sentence, and finally translate the summary into French, Spanish, and German | Temperature for story, Max tokens for summary, Target languages:
+
+## Fine-Tuning Examples with OpenAI API (Simple to Complex)
+| Title | Description | Fine-Tuning Process |
+|-------|-------------|---------------------|
+| Simple Sentiment Analysis | Fine-tune a model to classify text as positive or negative sentiment | Train the model on a labeled dataset of text samples with positive and negative sentiment labels |
+| Text Summarization | Fine-tune a model to generate concise summaries of long text documents | Train the model on pairs of long text documents and their corresponding summaries |
+| Language Translation | Fine-tune a model to translate English text to French | Train the model on parallel corpora of English sentences and their French translations |
+| Creative Recipe Generation | Fine-tune a model to generate creative recipes based on a list of ingredients | Train the model on a dataset of recipes, including ingredients and cooking instructions. Use recursive feedback to refine recipe creativity |
+| Dialogue Generation | Fine-tune a model to generate coherent and engaging dialogues between fictional characters | Train the model on a dataset of dialogues, then use a recursive feedback loop to improve the quality and coherence of generated dialogues |
+| Multi-Task Learning | Fine-tune a model to perform multiple tasks, such as text classification, named entity recognition, and sentiment analysis | Train the model on a diverse dataset with multiple tasks and labels, using a multi-task learning approach |
+| Story Continuation | Fine-tune a model to generate creative continuations of incomplete stories | Train the model on a dataset of incomplete stories and their continuations. Use chain of thought options to maintain consistency in the narrative |
+| Code Generation and Explanation | Fine-tune a model to generate Python code snippets and provide natural language explanations of how the code works | Train the model on pairs of code snippets and their explanations. Use recursive feedback to improve code quality and explanation clarity |
+| Custom Language Model | Fine-tune a model to mimic the writing style of a specific author or genre | Train the model on a corpus of text written by the target author or in the target genre. Use chain of thought options to capture the nuances of the writing style |
+| Complex NLP Pipeline | Fine-tune a model to perform a series of NLP tasks, such as text classification, entity linking, relation extraction, and coreference resolution | Train the model on a dataset with annotations for multiple NLP tasks. Use recursive feedback loops and chain of thought options to optimize the model's performance on the entire pipeline |
+
+
 ## Installation
 
 To install and use the open-source `main.py` code for the ChatGPT Plugin for OpenAI API, follow the steps below:
