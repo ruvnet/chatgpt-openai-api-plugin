@@ -181,8 +181,8 @@ class FineTunedCompletionRequest(BaseModel):
     temperature: float = 0.7
 
 @app.post("/proxy_openai_api/completions_finetuned/",
-          description="Generate completions using a fine-tuned model.")
-async def generate_finetuned_completion(prompt: str, model_id: str = "curie:ft-award-pool-2023-04-22-16-27-56", api_key: str = Depends(get_api_key)):
+          description="Generate completions using a fine-tuned model. Replace the model name and file name as needed")
+async def generate_finetuned_completion(prompt: str, model_id: str = "modelname:ft-samplefileupload-2023-04-22-16-27-56", api_key: str = Depends(get_api_key)):
     openai.api_key = api_key
     try:
         # Use the provided model_id to generate completions with the fine-tuned model
