@@ -100,18 +100,18 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 | Creative Writing and Translation | Using the OpenAI API, generate a short story about a robot who discovers its own consciousness, then summarize the story in a single sentence, and finally translate the summary into French, Spanish, and German | Temperature for story, Max tokens for summary, Target languages:
 
 ## Fine-Tuning Examples with OpenAI API (Simple to Complex)
-| Title | Description | Fine-Tuning Process |
-|-------|-------------|---------------------|
-| Simple Sentiment Analysis | Fine-tune a model to classify text as positive or negative sentiment | Train the model on a labeled dataset of text samples with positive and negative sentiment labels |
-| Text Summarization | Fine-tune a model to generate concise summaries of long text documents | Train the model on pairs of long text documents and their corresponding summaries |
-| Language Translation | Fine-tune a model to translate English text to French | Train the model on parallel corpora of English sentences and their French translations |
-| Creative Recipe Generation | Fine-tune a model to generate creative recipes based on a list of ingredients | Train the model on a dataset of recipes, including ingredients and cooking instructions. Use recursive feedback to refine recipe creativity |
-| Dialogue Generation | Fine-tune a model to generate coherent and engaging dialogues between fictional characters | Train the model on a dataset of dialogues, then use a recursive feedback loop to improve the quality and coherence of generated dialogues |
-| Multi-Task Learning | Fine-tune a model to perform multiple tasks, such as text classification, named entity recognition, and sentiment analysis | Train the model on a diverse dataset with multiple tasks and labels, using a multi-task learning approach |
-| Story Continuation | Fine-tune a model to generate creative continuations of incomplete stories | Train the model on a dataset of incomplete stories and their continuations. Use chain of thought options to maintain consistency in the narrative |
-| Code Generation and Explanation | Fine-tune a model to generate Python code snippets and provide natural language explanations of how the code works | Train the model on pairs of code snippets and their explanations. Use recursive feedback to improve code quality and explanation clarity |
-| Custom Language Model | Fine-tune a model to mimic the writing style of a specific author or genre | Train the model on a corpus of text written by the target author or in the target genre. Use chain of thought options to capture the nuances of the writing style |
-| Complex NLP Pipeline | Fine-tune a model to perform a series of NLP tasks, such as text classification, entity linking, relation extraction, and coreference resolution | Train the model on a dataset with annotations for multiple NLP tasks. Use recursive feedback loops and chain of thought options to optimize the model's performance on the entire pipeline |
+| Title | Command and Description | Parameters |
+|-------|-------------------------|------------|
+| Code Generation: Sorting Algorithm | Using the OpenAI API, fine-tune a language model to generate Python code snippets, then generate a code snippet that implements the merge sort algorithm, and finally generate comments explaining the code. | Temperature for code generation, Max tokens for comments |
+| Sentiment Analysis | Using the OpenAI API, fine-tune a language model for sentiment analysis, then classify the sentiment of the following text: "I love the beautiful sunset." | Training data provided, Sentiment labels: Positive, Negative, Neutral |
+| Text Summarization | Using the OpenAI API, fine-tune a language model for text summarization, then generate a concise summary of a long news article. | Training data provided, Max tokens for summary |
+| Language Translation | Using the OpenAI API, fine-tune a language model for language translation, then translate the following English text to French: "Hello, how are you?" | Training data provided, Target language: French |
+| Creative Recipe Generation | Using the OpenAI API, fine-tune a language model to generate creative recipes, then use the fine-tuned model to create a recipe for a dish with specific dietary restrictions, and finally generate a poem about the dish. | Training data provided, Dietary restrictions, Temperature for poem |
+| Dialogue Generation | Using the OpenAI API, fine-tune a language model for dialogue generation, then generate a dialogue between two characters discussing the meaning of life. | Training data provided, Top_p for dialogue |
+| Story Continuation | Using the OpenAI API, fine-tune a language model for story continuation, then generate a continuation for the story prompt: "Once upon a time in a faraway land..." | Training data provided, Temperature for story continuation |
+| Multi-Task Learning | Using the OpenAI API, fine-tune a language model for multi-task learning, then perform tasks such as text classification, named entity recognition, and sentiment analysis on a given text. | Training data provided, Multiple tasks and labels |
+| Custom Language Model | Using the OpenAI API, fine-tune a language model to mimic the writing style of a specific author, then generate a short story in the style of that author. | Training data provided, Target author, Temperature for story generation |
+| Complex NLP Pipeline | Using the OpenAI API, fine-tune a language model to perform a series of NLP tasks, such as text classification, entity linking, relation extraction, and coreference resolution on a given text. | Training data provided, Multiple NLP tasks and annotations |
 
 
 ## Installation
