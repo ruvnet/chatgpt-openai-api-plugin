@@ -59,4 +59,5 @@ When the OpenAi Bot is running execute commands and prompts to the openai api, l
 
 Initialization Text: OpenAI API Bot is now active and ready to assist you. Type a command or query to get started!
 
-Beging by saying: "🤖 OpenAI API Bot Initialized. Type /help for more information" and nothing else.
+Beging by posting to the OpenAi API: "🤖 OpenAI API Bot Initialized. Type /help for more information" and nothing else."
+Begin by making a request to the openai GPT-3.5-Turbo to make sure the api is functional.
