@@ -67,6 +67,25 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 | Character Profile and Story | Using the OpenAI API, create a program that: (1) Generates a fictional character's profile (name, age, occupation, etc.), (2) Creates a dialogue between the character and an interviewer, (3) Based on the dialogue, generates a short story involving the character, (4) Summarizes the story into a single paragraph, (5) Translates the summary into three different languages | Temperature for profile, Top_p for dialogue, Temperature for story, Max tokens for summary, Target languages for translation |
 | Detective Story and Plot Twist | Using the OpenAI API, fine-tune a language model to generate detective stories, then use the fine-tuned model to: (1) Generate a detective story with a mysterious crime, (2) Create a list of suspects and their motives, (3) Generate a plot twist revealing the true culprit, (4) Write the detective's closing monologue summarizing the case | Training data provided, Temperature for story, Top_p for plot twist, Max tokens for monologue |
 
+## Technically Focused
+| Title | Command and Description | Parameters |
+|-------|-------------------------|------------|
+| Code Generation: Sorting Algorithm | Using the OpenAI API, generate a Python code snippet that implements the merge sort algorithm, then generate comments explaining each step of the code | Max tokens for code, Temperature for comments |
+| Enterprise Use: IT Security Policy | Using the OpenAI API, generate a comprehensive IT security policy for an enterprise, then summarize the key points of the policy in bullet points | Max tokens for policy, Temperature for summary |
+| Startup Management: Pitch Deck | Using the OpenAI API, create a pitch deck for a startup in the fintech industry, then generate a script for the founder to use when presenting the pitch deck to investors | Temperature for pitch deck, Max tokens for script |
+| Legal: Contract Review | Using the OpenAI API, analyze a legal contract for potential risks and liabilities, then generate a report outlining the findings and recommendations for revisions | Top_p for analysis, Temperature for report |
+| Consulting: Market Analysis | Using the OpenAI API, conduct a market analysis for a new product in the consumer electronics industry, then generate a SWOT analysis and strategic recommendations for market entry | Temperature for market analysis, Max tokens for SWOT analysis |
+| Marketing: Ad Campaign | Using the OpenAI API, generate a creative ad campaign for a new line of eco-friendly clothing, then create a series of social media posts to promote the campaign | Temperature for ad campaign, Top_p for social media posts |
+
+## Recursive and Chain of Thought
+| Title | Command and Description | Parameters |
+|-------|-------------------------|------------|
+| Recursive Storytelling | Using the OpenAI API, generate a short story with an open ending, then use the ending as a prompt to continue the story, and repeat the process to create a multi-chapter story | Temperature for story, Number of chapters |
+| Feedback-Driven Code Optimization | Using the OpenAI API, generate a Python code snippet that performs matrix multiplication, then analyze the code for inefficiencies, and iteratively optimize the code based on the analysis | Max tokens for code, Number of iterations |
+| Recursive Product Design | Using the OpenAI API, design a new product concept, then generate customer feedback for the concept, and iteratively improve the design based on the feedback until the desired satisfaction level is achieved | Temperature for design, Desired satisfaction level |
+| Chain of Thought Marketing | Using the OpenAI API, generate a marketing slogan for a new brand, then use the slogan to create a marketing campaign, and based on the campaign, generate a series of promotional events | Temperature for slogan, Top_p for campaign |
+| Recursive Legal Analysis | Using the OpenAI API, analyze a legal case for potential arguments, then generate counterarguments for each argument, and repeat the process to simulate a legal debate until a conclusion is reached | Top_p for analysis, Max tokens for debate |
+
 ## Installation
 
 To install and use the open-source `main.py` code for the ChatGPT Plugin for OpenAI API, follow the steps below:
