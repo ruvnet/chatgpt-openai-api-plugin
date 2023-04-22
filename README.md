@@ -80,3 +80,7 @@ The ChatGPT Plugin for OpenAI API is now running and accessible at http://localh
 ## Conclusion
 
 The ChatGPT Plugin for OpenAI API is a valuable tool for users seeking to explore the capabilities of OpenAI's language models in creative and interactive
+
+# Preview
+![ChatGPT OpenAI API Plugin](https://github.com/ruvnet/chatgpt-openai-api-plugin/blob/main/chatgpt-openai-api-plugin.png?raw=true)
+
