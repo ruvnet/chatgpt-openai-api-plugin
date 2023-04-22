@@ -5,7 +5,6 @@
 The ChatGPT Plugin for OpenAI API is a powerful tool that seamlessly integrates ChatGPT with the OpenAI API, enabling users to leverage the capabilities of OpenAI's language models in creative and interactive ways. This plugin acts as an intelligent API caller, allowing ChatGPT to generate text completions, engage in dynamic conversations, fine-tune language models, and explore various output settings, all through natural language interactions.
 
 The plugin is designed to enhance ChatGPT's functionality by providing access to the OpenAI API, making it a valuable asset for developers, content creators, and businesses seeking to harness the power of language models for a wide range of use-cases inside the ChatGPT interface.
-## Use-Cases
 
 ## Use-Cases
 
