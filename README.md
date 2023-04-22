@@ -69,6 +69,15 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 | Math Equation Visualization | Using the Wolfram Alpha plugin, generate a visual representation of a mathematical equation, then use the OpenAI API to fine-tune a language model to describe mathematical visuals, and generate a description of the visual representation | Mathematical equation, Max tokens for description |
 | Web Content Analysis | Using the URL Browser plugin, retrieve the content of a specific website, then use the OpenAI API to fine-tune a language model for text analysis, and generate an analysis report of the website content | Website URL, Max tokens for analysis report |
 
+## Recursive and Chain of Thought
+| Title | Command and Description | Parameters |
+|-------|-------------------------|------------|
+| Recursive Storytelling | Using the OpenAI API, generate a short story with an open ending, then use the ending as a prompt to continue the story, and repeat the process to create a multi-chapter story | Temperature for story, Number of chapters |
+| Feedback-Driven Code Optimization | Using the OpenAI API, generate a Python code snippet that performs matrix multiplication, then analyze the code for inefficiencies, and iteratively optimize the code based on the analysis | Max tokens for code, Number of iterations |
+| Recursive Product Design | Using the OpenAI API, design a new product concept, then generate customer feedback for the concept, and iteratively improve the design based on the feedback until the desired satisfaction level is achieved | Temperature for design, Desired satisfaction level |
+| Chain of Thought Marketing | Using the OpenAI API, generate a marketing slogan for a new brand, then use the slogan to create a marketing campaign, and based on the campaign, generate a series of promotional events | Temperature for slogan, Top_p for campaign |
+| Recursive Legal Analysis | Using the OpenAI API, analyze a legal case for potential arguments, then generate counterarguments for each argument, and repeat the process to simulate a legal debate until a conclusion is reached | Top_p for analysis, Max tokens for debate |
+
 ## Technically Focused
 | Title | Command and Description | Parameters |
 |-------|-------------------------|------------|
@@ -118,14 +127,6 @@ The ChatGPT Plugin for OpenAI API is a valuable tool for users seeking to explor
 
 ## Additional Examples
 
-## Recursive and Chain of Thought
-| Title | Command and Description | Parameters |
-|-------|-------------------------|------------|
-| Recursive Storytelling | Using the OpenAI API, generate a short story with an open ending, then use the ending as a prompt to continue the story, and repeat the process to create a multi-chapter story | Temperature for story, Number of chapters |
-| Feedback-Driven Code Optimization | Using the OpenAI API, generate a Python code snippet that performs matrix multiplication, then analyze the code for inefficiencies, and iteratively optimize the code based on the analysis | Max tokens for code, Number of iterations |
-| Recursive Product Design | Using the OpenAI API, design a new product concept, then generate customer feedback for the concept, and iteratively improve the design based on the feedback until the desired satisfaction level is achieved | Temperature for design, Desired satisfaction level |
-| Chain of Thought Marketing | Using the OpenAI API, generate a marketing slogan for a new brand, then use the slogan to create a marketing campaign, and based on the campaign, generate a series of promotional events | Temperature for slogan, Top_p for campaign |
-| Recursive Legal Analysis | Using the OpenAI API, analyze a legal case for potential arguments, then generate counterarguments for each argument, and repeat the process to simulate a legal debate until a conclusion is reached | Top_p for analysis, Max tokens for debate |
 
 ## Advanced Examples with Various Models and Settings
 | Title | Command and Description | Parameters | Model |
