@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "OpenAI API Plugin",
+  "name_for_model": "openai_api",
+  "description_for_human": "A plugin that provides access to OpenAI API functionalities.",
+  "description_for_model": "This plugin allows you to interact with OpenAI API for text generation, model fine-tuning, and more.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "yourdomain.com/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "yourdomain.com/.well-known/logo.jpg",
+  "contact_email": "x@xyz.net",
+  "legal_info_url": "yourdomain.com/legal"
+}
