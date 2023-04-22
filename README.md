@@ -40,10 +40,20 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 
 Examples of commands you can use:
 
-- "Generate a short poem about the moon."
-- "Translate the following English text to French: 'Hello, how are you?'"
-- "Fine-tune a language model using the training data I provided."
-- "Generate multiple completions for the prompt 'Once upon a time' with different temperature settings."
+- "Using the OpenAI API, generate a short poem about the moon with a temperature of 0.7."
+- "Using the OpenAI API, translate the following English text to French: 'Hello, how are you?'" 
+- "Using the OpenAI API, fine-tune a language model using the training data I provided to improve its creative writing ability."
+- "Using the OpenAI API, generate multiple completions (n=3) for the prompt 'Once upon a time' with different temperature settings (0.5, 0.7, and 0.9)."
+- "Using the OpenAI API, generate a Python code snippet that calculates the factorial of a given number, with a maximum token limit of 50."
+- "Using the OpenAI API, create a short story about a robot who discovers its own consciousness, with a temperature of 0.8."
+- "Using the OpenAI API, write a haiku about the changing seasons with a temperature of 0.6."
+- "Using the OpenAI API, generate multiple versions (n=2) of a motivational quote with different levels of assertiveness (temperature 0.3 and 0.9)."
+- "Using the OpenAI API, fine-tune a language model to generate creative recipes based on a list of ingredients, and provide me with a recipe using the fine-tuned model."
+- "Using the OpenAI API, generate a dialogue between two characters discussing the meaning of life, with different levels of formality (top_p 0.7 and 0.95)."
+- "Using the OpenAI API, create a code snippet that finds the longest palindrome in a given string, with a maximum token limit of 80."
+- "Using the OpenAI API, generate a limerick about a mischievous cat with a temperature of 0.75."
+- "Using the OpenAI API, write a short description of an imaginary planet with different levels of detail (n=2, temperature 0.5 and 0.9)."
+- "Using the OpenAI API, generate multiple endings (n=3) for the story 'The princess was trapped in the tower by an evil witch' with different levels of optimism (temperature 0.4, 0.7, and 1.0)."
 
 ## Installation
 
