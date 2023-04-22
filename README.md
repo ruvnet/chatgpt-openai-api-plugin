@@ -39,22 +39,22 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 
 ## Examples of commands you can use:
 
-| Command and Description | Parameters |
-|-------------------------|------------|
-| Using the OpenAI API, generate a short poem about the moon | Temperature: 0.7 |
-| Using the OpenAI API, translate the English text 'Hello, how are you?' to French | - |
-| Using the OpenAI API, fine-tune a language model to improve its creative writing ability | Training data provided |
-| Using the OpenAI API, generate multiple completions (n=3) for the prompt 'Once upon a time' | Temperature: 0.5, 0.7, 0.9 |
-| Using the OpenAI API, generate a Python code snippet that calculates the factorial of a given number | Max tokens: 50 |
-| Using the OpenAI API, create a short story about a robot who discovers its own consciousness | Temperature: 0.8 |
-| Using the OpenAI API, write a haiku about the changing seasons | Temperature: 0.6 |
-| Using the OpenAI API, generate multiple versions (n=2) of a motivational quote with different levels of assertiveness | Temperature: 0.3, 0.9 |
-| Using the OpenAI API, fine-tune a language model to generate creative recipes based on a list of ingredients, and provide a recipe using the fine-tuned model | - |
-| Using the OpenAI API, generate a dialogue between two characters discussing the meaning of life with different levels of formality | Top_p: 0.7, 0.95 |
-| Using the OpenAI API, create a code snippet that finds the longest palindrome in a given string | Max tokens: 80 |
-| Using the OpenAI API, generate a limerick about a mischievous cat | Temperature: 0.75 |
-| Using the OpenAI API, write a short description of an imaginary planet with different levels of detail | n=2, Temperature: 0.5, 0.9 |
-| Using the OpenAI API, generate multiple endings (n=3) for the story 'The princess was trapped in the tower by an evil witch' with different levels of optimism | Temperature: 0.4, 0.7, 1.0 |
+| Title | Command and Description | Parameters |
+|-------|-------------------------|------------|
+| Generate a Short Poem | Using the OpenAI API, generate a short poem about the moon | Temperature: 0.7 |
+| Translate English to French | Using the OpenAI API, translate the English text 'Hello, how are you?' to French | - |
+| Fine-Tune for Creative Writing | Using the OpenAI API, fine-tune a language model to improve its creative writing ability | Training data provided |
+| Multiple Completions for a Prompt | Using the OpenAI API, generate multiple completions (n=3) for the prompt 'Once upon a time' | Temperature: 0.5, 0.7, 0.9 |
+| Generate Factorial Code Snippet | Using the OpenAI API, generate a Python code snippet that calculates the factorial of a given number | Max tokens: 50 |
+| Create a Short Story | Using the OpenAI API, create a short story about a robot who discovers its own consciousness | Temperature: 0.8 |
+| Write a Haiku | Using the OpenAI API, write a haiku about the changing seasons | Temperature: 0.6 |
+| Multiple Versions of a Quote | Using the OpenAI API, generate multiple versions (n=2) of a motivational quote with different levels of assertiveness | Temperature: 0.3, 0.9 |
+| Fine-Tune for Creative Recipes | Using the OpenAI API, fine-tune a language model to generate creative recipes based on a list of ingredients, and provide a recipe using the fine-tuned model | - |
+| Generate a Dialogue | Using the OpenAI API, generate a dialogue between two characters discussing the meaning of life with different levels of formality | Top_p: 0.7, 0.95 |
+| Find Longest Palindrome | Using the OpenAI API, create a code snippet that finds the longest palindrome in a given string | Max tokens: 80 |
+| Generate a Limerick | Using the OpenAI API, generate a limerick about a mischievous cat | Temperature: 0.75 |
+| Describe an Imaginary Planet | Using the OpenAI API, write a short description of an imaginary planet with different levels of detail | n=2, Temperature: 0.5, 0.9 |
+| Multiple Endings for a Story | Using the OpenAI API, generate multiple endings (n=3) for the story 'The princess was trapped in the tower by an evil witch' with different levels of optimism | Temperature: 0.4, 0.7, 1.0 |
 
 ## Advanced Examples with OpenAI API and ChatGPT Plugins Integration
 | Title | Command and Description | Parameters |
