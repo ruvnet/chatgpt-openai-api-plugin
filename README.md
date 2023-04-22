@@ -45,6 +45,38 @@ Examples of commands you can use:
 - "Fine-tune a language model using the training data I provided."
 - "Generate multiple completions for the prompt 'Once upon a time' with different temperature settings."
 
+## Installation
+
+To install and use the open-source `main.py` code for the ChatGPT Plugin for OpenAI API, follow the steps below:
+
+1. Clone the GitHub repository:
+```bash
+git clone https://github.com/ruvnet/chatgpt-openai-api-plugin.git
+```
+2. Change to the cloned directory:
+```
+cd chatgpt-openai-api-plugin
+```
+3. Install the required dependencies:
+```
+pip install -r requirements.txt
+```
+4. Set the OPENAI_API_KEY environment variable with your OpenAI API key:
+```
+export OPENAI_API_KEY=YOUR_API_KEY
+```
+5. Run the FastAPI application using the Uvicorn ASGI server:
+```
+uvicorn main:app --host 0.0.0.0 --port 8080
+```
+6. Update ai-plugin.json
+```
+./plugins/ai-plugin.json
+```
+7. Manifest is located http://localhost:8080/.well-known/ai-json.json and API Specification is located http://localhost:8080/openapi.json 
+
+The ChatGPT Plugin for OpenAI API is now running and accessible at http://localhost:8080.
+
 ## Conclusion
 
 The ChatGPT Plugin for OpenAI API is a valuable tool for users seeking to explore the capabilities of OpenAI's language models in creative and interactive
