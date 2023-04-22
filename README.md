@@ -7,20 +7,21 @@ The ChatGPT Plugin for OpenAI API is a powerful tool that seamlessly integrates 
 The plugin is designed to enhance ChatGPT's functionality by providing access to the OpenAI API, making it a valuable asset for developers, content creators, and businesses seeking to harness the power of language models for a wide range of use-cases inside the ChatGPT interface.
 ## Use-Cases
 
-Use-Cases
-- Text Generation: Generate creative and coherent text based on user-defined prompts using OpenAI's GPT-4, GPT-3.5 Turbo, and other models.
-- Conversational AI: Build interactive chatbots and virtual assistants that can engage in natural language conversations with users.
-- Language Translation: Translate text from one language to another with high accuracy.
-- Code Generation: Generate code snippets, algorithms, and software solutions in various programming languages.
-- Model Fine-Tuning: Fine-tune language models to specialize in specific domains or industries, such as legal, medical, or finance.
-- Recursive Workflow: Generate multiple completions recursively to explore different narrative paths or conversation branches. Utilize recursive feedback loops for creative writing and storytelling.
-- Integration with External Data: Use ChatGPT plugins to integrate with external data sources, such as web content, Wolfram Alpha calculations, and more, to enhance the capabilities of the language model.
-- Creative Writing: Generate poems, short stories, dialogues, and other literary content with varying levels of creativity, formality, and detail.
-- Content Summarization: Summarize long articles, documents, or conversations into concise summaries.
-- Multilingual Applications: Generate content and interact with users in multiple languages.
-- Data Augmentation: Generate synthetic data for training machine learning models in various domains.
-- Chain of Thought: Use the language model to generate a sequence of related content, such as character profiles, dialogues, stories, summaries, and translations.
-- Customization: Experiment with different settings, such as temperature, top_p, and n, to influence the diversity and creativity of generated text.
+## Use-Cases
+
+- **Text Generation:** Generate creative and coherent text based on user-defined prompts using OpenAI's GPT-4, GPT-3.5 Turbo, and other models.
+- **Conversational AI:** Build interactive chatbots and virtual assistants that can engage in natural language conversations with users.
+- **Language Translation:** Translate text from one language to another with high accuracy.
+- **Code Generation:** Generate code snippets, algorithms, and software solutions in various programming languages.
+- **Model Fine-Tuning:** Fine-tune language models to specialize in specific domains or industries, such as legal, medical, or finance.
+- **Recursive Workflow:** Generate multiple completions recursively to explore different narrative paths or conversation branches. Utilize recursive feedback loops for creative writing and storytelling.
+- **Integration with External Data:** Use ChatGPT plugins to integrate with external data sources, such as web content, Wolfram Alpha calculations, and more, to enhance the capabilities of the language model.
+- **Creative Writing:** Generate poems, short stories, dialogues, and other literary content with varying levels of creativity, formality, and detail.
+- **Content Summarization:** Summarize long articles, documents, or conversations into concise summaries.
+- **Multilingual Applications:** Generate content and interact with users in multiple languages.
+- **Data Augmentation:** Generate synthetic data for training machine learning models in various domains.
+- **Chain of Thought:** Use the language model to generate a sequence of related content, such as character profiles, dialogues, stories, summaries, and translations.
+- **Customization:** Experiment with different settings, such as temperature, top_p, and n, to influence the diversity and creativity of generated text.
 
 ## Benefits
 
