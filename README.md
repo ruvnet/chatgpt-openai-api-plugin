@@ -39,20 +39,33 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 
 ## Examples of commands you can use:
 
-- "Using the OpenAI API, generate a short poem about the moon with a temperature of 0.7."
-- "Using the OpenAI API, translate the following English text to French: 'Hello, how are you?'" 
-- "Using the OpenAI API, fine-tune a language model using the training data I provided to improve its creative writing ability."
-- "Using the OpenAI API, generate multiple completions (n=3) for the prompt 'Once upon a time' with different temperature settings (0.5, 0.7, and 0.9)."
-- "Using the OpenAI API, generate a Python code snippet that calculates the factorial of a given number, with a maximum token limit of 50."
-- "Using the OpenAI API, create a short story about a robot who discovers its own consciousness, with a temperature of 0.8."
-- "Using the OpenAI API, write a haiku about the changing seasons with a temperature of 0.6."
-- "Using the OpenAI API, generate multiple versions (n=2) of a motivational quote with different levels of assertiveness (temperature 0.3 and 0.9)."
-- "Using the OpenAI API, fine-tune a language model to generate creative recipes based on a list of ingredients, and provide me with a recipe using the fine-tuned model."
-- "Using the OpenAI API, generate a dialogue between two characters discussing the meaning of life, with different levels of formality (top_p 0.7 and 0.95)."
-- "Using the OpenAI API, create a code snippet that finds the longest palindrome in a given string, with a maximum token limit of 80."
-- "Using the OpenAI API, generate a limerick about a mischievous cat with a temperature of 0.75."
-- "Using the OpenAI API, write a short description of an imaginary planet with different levels of detail (n=2, temperature 0.5 and 0.9)."
-- "Using the OpenAI API, generate multiple endings (n=3) for the story 'The princess was trapped in the tower by an evil witch' with different levels of optimism (temperature 0.4, 0.7, and 1.0)."
+| Command and Description | Parameters |
+|-------------------------|------------|
+| Using the OpenAI API, generate a short poem about the moon | Temperature: 0.7 |
+| Using the OpenAI API, translate the English text 'Hello, how are you?' to French | - |
+| Using the OpenAI API, fine-tune a language model to improve its creative writing ability | Training data provided |
+| Using the OpenAI API, generate multiple completions (n=3) for the prompt 'Once upon a time' | Temperature: 0.5, 0.7, 0.9 |
+| Using the OpenAI API, generate a Python code snippet that calculates the factorial of a given number | Max tokens: 50 |
+| Using the OpenAI API, create a short story about a robot who discovers its own consciousness | Temperature: 0.8 |
+| Using the OpenAI API, write a haiku about the changing seasons | Temperature: 0.6 |
+| Using the OpenAI API, generate multiple versions (n=2) of a motivational quote with different levels of assertiveness | Temperature: 0.3, 0.9 |
+| Using the OpenAI API, fine-tune a language model to generate creative recipes based on a list of ingredients, and provide a recipe using the fine-tuned model | - |
+| Using the OpenAI API, generate a dialogue between two characters discussing the meaning of life with different levels of formality | Top_p: 0.7, 0.95 |
+| Using the OpenAI API, create a code snippet that finds the longest palindrome in a given string | Max tokens: 80 |
+| Using the OpenAI API, generate a limerick about a mischievous cat | Temperature: 0.75 |
+| Using the OpenAI API, write a short description of an imaginary planet with different levels of detail | n=2, Temperature: 0.5, 0.9 |
+| Using the OpenAI API, generate multiple endings (n=3) for the story 'The princess was trapped in the tower by an evil witch' with different levels of optimism | Temperature: 0.4, 0.7, 1.0 |
+
+## Advanced Examples
+| Title | Command and Description | Parameters |
+|-------|-------------------------|------------|
+| Creative Recipe and Poem | Using the OpenAI API, fine-tune a language model to generate creative recipes, then use the fine-tuned model to create a recipe for a dish with specific dietary restrictions, and finally generate a poem about the dish | Training data provided, Dietary restrictions, Temperature for poem |
+| Dialogue and Short Story | Using the OpenAI API, generate a dialogue between two characters discussing the meaning of life, then use the dialogue to create a short story, and finally summarize the story in a single sentence | Top_p for dialogue, Temperature for story, Max tokens for summary |
+| Prime Number Riddle | Using the OpenAI API, generate a Python code snippet that finds prime numbers in a given range, then use the code to find prime numbers between 1 and 100, and finally generate a riddle about one of the prime numbers | Max tokens for code, Range: 1-100, Temperature for riddle |
+| Imaginary Planet News | Using the OpenAI API, create a short description of an imaginary planet, then generate a fictional news article about a major event on the planet, and finally write a speech by the planet's leader addressing the event | Temperature for description, Top_p for article, Max tokens for speech |
+| Mischievous Cat Play | Using the OpenAI API, generate a limerick about a mischievous cat, then use the limerick as a prompt to generate a short play featuring the cat, and finally write a review of the play as if it were performed on stage | Temperature for limerick, Top_p for play, Max tokens for review |
+| Character Profile and Story | Using the OpenAI API, create a program that: (1) Generates a fictional character's profile (name, age, occupation, etc.), (2) Creates a dialogue between the character and an interviewer, (3) Based on the dialogue, generates a short story involving the character, (4) Summarizes the story into a single paragraph, (5) Translates the summary into three different languages | Temperature for profile, Top_p for dialogue, Temperature for story, Max tokens for summary, Target languages for translation |
+| Detective Story and Plot Twist | Using the OpenAI API, fine-tune a language model to generate detective stories, then use the fine-tuned model to: (1) Generate a detective story with a mysterious crime, (2) Create a list of suspects and their motives, (3) Generate a plot twist revealing the true culprit, (4) Write the detective's closing monologue summarizing the case | Training data provided, Temperature for story, Top_p for plot twist, Max tokens for monologue |
 
 ## Installation
 
