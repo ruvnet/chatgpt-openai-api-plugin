@@ -38,7 +38,7 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 2. Start a conversation with ChatGPT and provide natural language prompts or commands related to the OpenAI API functionality.
 3. ChatGPT will intelligently call the OpenAI API based on your input and provide responses that incorporate the API data.
 
-Examples of commands you can use:
+## Examples of commands you can use:
 
 - "Using the OpenAI API, generate a short poem about the moon with a temperature of 0.7."
 - "Using the OpenAI API, translate the following English text to French: 'Hello, how are you?'" 
