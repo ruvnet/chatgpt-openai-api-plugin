@@ -45,7 +45,7 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 2. Start a conversation with ChatGPT and provide natural language prompts or commands related to the OpenAI API functionality.
 3. ChatGPT will intelligently call the OpenAI API based on your input and provide responses that incorporate the API data.
 
-## Examples of commands you can use:
+## Examples of commands you can use
 
 | Title | Command and Description | Parameters |
 |-------|-------------------------|------------|
@@ -65,6 +65,7 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 | Multiple Endings for a Story | Using the OpenAI API, generate multiple endings (n=3) for the story 'The princess was trapped in the tower by an evil witch' with different levels of optimism | Temperature: 0.4, 0.7, 1.0 |
 
 ## Advanced Examples with OpenAI API and ChatGPT Plugins Integration
+
 | Title | Command and Description | Parameters |
 |-------|-------------------------|------------|
 | Creative Recipe and Poem | Using the OpenAI API, fine-tune a language model to generate creative recipes, then use the fine-tuned model to create a recipe for a dish with specific dietary restrictions, and finally generate a poem about the dish | Training data provided, Dietary restrictions, Temperature for poem |
@@ -78,6 +79,7 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 | Web Content Analysis | Using the URL Browser plugin, retrieve the content of a specific website, then use the OpenAI API to fine-tune a language model for text analysis, and generate an analysis report of the website content | Website URL, Max tokens for analysis report |
 
 ## Recursive and Chain of Thought
+
 | Title | Command and Description | Parameters |
 |-------|-------------------------|------------|
 | Recursive Storytelling | Using the OpenAI API, generate a short story with an open ending, then use the ending as a prompt to continue the story, and repeat the process to create a multi-chapter story | Temperature for story, Number of chapters |
@@ -87,6 +89,7 @@ To use the ChatGPT Plugin for OpenAI API, follow these steps:
 | Recursive Legal Analysis | Using the OpenAI API, analyze a legal case for potential arguments, then generate counterarguments for each argument, and repeat the process to simulate a legal debate until a conclusion is reached | Top_p for analysis, Max tokens for debate |
 
 ## Technically Focused
+
 | Title | Command and Description | Parameters |
 |-------|-------------------------|------------|
 | Code Generation: Sorting Algorithm | Using the OpenAI API, generate a Python code snippet that implements the merge sort algorithm, then generate comments explaining each step of the code | Max tokens for code, Temperature for comments |

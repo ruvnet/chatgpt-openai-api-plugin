@@ -8,11 +8,11 @@
     "type": "none"
   },
   "api": {
-    "type": "openapi",
-    "url": "yourdomain.com/openapi.json",
+    "type": "openai",
+    "url": "http://localhost:8080/.well-known/ai-json.json",
     "is_user_authenticated": false
   },
-  "logo_url": "yourdomain.com/.well-known/logo.jpg",
-  "contact_email": "x@xyz.net",
-  "legal_info_url": "yourdomain.com/legal"
+  "logo_url": "localhost:8080/.well-known/logo.jpg",
+  "contact_email": "info@skydust.io",
+  "legal_info_url": "https://www.skydust.io/legal"
 }
